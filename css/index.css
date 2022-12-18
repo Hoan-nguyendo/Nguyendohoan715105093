@@ -1,0 +1,771 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 12vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.header .noidung {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(https://www.footlook.it/iconuove/FOOK_barra_day_mode.jpg);
+}
+
+.header .noidung .logo {
+    width: 21%;
+    height: 100%;
+    display: flex;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.header .noidung .logo div {
+    width: 100%;
+}
+
+.header .noidung .logo div img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: contain;
+    background-color: green;
+}
+
+.header .noidung .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 30%;
+}
+
+.header .noidung .nav .search {
+    width: 80%;
+    border: 0;
+}
+
+.header .noidung .nav input {
+    width: 100%;
+    position: relative;
+    height: 30px;
+    border-radius: 50px;
+    padding-left: 10px;
+    display: flex;
+    border: 1px solid rgb(201, 234, 240);
+    color: rgb(3, 50, 27);
+}
+
+.header .noidung .nav input:hover {
+    transform: scale(1.1);
+}
+
+.header .noidung .nav i {
+    position: absolute;
+    top: 38px;
+    left: 915px;
+    z-index: 5;
+}
+
+.header .noidung .navigation {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .noidung .navigation .iconNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.header .noidung .avatar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.header .noidung .avatar .image {
+    width: 25px;
+}
+
+.header .noidung .avatar .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.friend,
+.message,
+.bell {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.avatar {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar:hover {
+    background-color: rgb(201, 237, 237);
+    border-radius: 15px;
+    transform: scale(1.2);
+}
+
+.bell:hover {
+    background-color: rgb(201, 237, 237);
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+
+.message:hover {
+    background-color: rgb(201, 237, 237);
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+
+.friend:hover {
+    background-color: rgb(201, 237, 237);
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+
+.friend,
+.message,
+.bell,
+.avatar i {
+    color: rgba(40, 31, 3, 0.8);
+}
+
+.avatar p {
+    font-size: 20px;
+}
+
+.iconDrop p {
+    font-weight: 650;
+}
+
+.iconDrop p>a:hover {
+    color: brown;
+}
+
+.iconDrop p>a {
+    text-decoration: none;
+    color: black;
+}
+
+.iconDrop p>a i {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+section .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+section .content .left,
+.right {
+    width: 20%;
+    margin-top: 12vh;
+}
+
+section .content .left {
+    height: 680px;
+    background-color: azure;
+    overflow-y: scroll;
+    position: fixed;
+    left: 0;
+}
+
+section .content .center {
+    width: 50%;
+    height: auto;
+    margin-top: 12vh;
+    margin-left: 25%;
+}
+
+section .content .left .menu .menuTop,
+.menuBottom {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+}
+
+section .content .left .menu .menuBottom {
+    margin-bottom: 20px;
+}
+
+section .content .left .menu .chucnang {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+section .content .left .menu .chucnang .icon {
+    width: 70px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgb(215, 241, 215);
+    height: 100%;
+    align-items: center;
+    margin-left: 5px;
+}
+
+section .content .left .menu .menuTop .chucnang .icon i {
+    color: rgb(11, 50, 21);
+}
+
+section .content .left .menu .chucnang .noidung {
+    width: 100%;
+    display: flex;
+    margin-left: 25px;
+}
+
+section .content .left .menu .chucnang:hover {
+    background-color: rgb(188, 244, 177);
+}
+
+section button {
+    border: none;
+    background-color: azure;
+    padding-left: 80px;
+}
+
+section button p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+section .content .left .menu .menuBottom .loitat:hover {
+    background-color: azure;
+}
+
+section .content .left .menu .menuBottom .loitat {
+    font-weight: 500;
+}
+
+section .content .left .menu .menuBottom .chucnang .icon {
+    background-color: #fff;
+    border-radius: 0;
+}
+
+section .content .left .menu .menuBottom .chucnang .icon img {
+    width: 50px;
+    height: 100%;
+    /* border-radius: 50px; */
+    object-fit: contain;
+}
+
+section .content .left .menu .menuBottom .chucnang:last-child .icon {
+    background-color: rgb(215, 241, 215);
+    border-radius: 50px;
+}
+
+.DropDown {
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+section .content .left .menu .nutbam1,
+.nutbam2,
+.nutbam3,
+.nutbam4 {
+    width: 100%;
+}
+
+section .content .left .menu .nutbam3 {
+    display: block;
+}
+
+section .content .center {
+    padding-top: 50px;
+    /* display: flex; */
+}
+
+section .content .center .dangbai .top .contentTop {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+section .content .center .dangbai .top {
+    display: flex;
+    width: calc(100% - 100px);
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+section .content .center .dangbai {
+    width: calc(100% - 1px);
+    height: 150px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    border: 1px solid rgb(209, 206, 206);
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .content .center .dangbai .top input {
+    width: 80%;
+    position: relative;
+    height: 40px;
+    border-radius: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(16, 123, 62);
+    color: rgb(2, 13, 8);
+}
+
+section .content .center .dangbai .top input:hover {
+    background-color: aliceblue;
+}
+
+section .content .center .dangbai .top .ava {
+    border-radius: 50px;
+    width: 10%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .content .center .dangbai .top .ava img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    object-fit: cover;
+    opacity: 1;
+}
+
+section .content .center .dangbai .top .search {
+    width: 90%;
+}
+
+::placeholder {
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+    opacity: 0.2;
+}
+
+section .content .center .dangbai hr {
+    opacity: 0.3;
+    color: black;
+    width: 100%;
+}
+
+section .content .center .dangbai .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    width: 100%;
+}
+
+section .content .center .dangbai .bottom .noidung {
+    height: 50px;
+    display: flex;
+}
+
+section .content .center .dangbai .bottom .noidung:hover {
+    background-color: rgb(247, 250, 247);
+    /* border-radius: 25px; */
+}
+
+section .content .center .dangbai .bottom .noidung .icon {
+    display: flex;
+    align-items: center;
+}
+
+section .content .center .dangbai .bottom .noidung .icon p:hover {
+    color: brown;
+    display: block;
+}
+
+section .content .center .dangbai .bottom .noidung .icon p {
+    font-size: 20px;
+    font-weight: 500;
+    /* color: red; */
+}
+
+section .content .center .dangbai .bottom .noidung .icon i {
+    color: rgb(243, 57, 57);
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+section .content .center .baiviet {
+    width: 100%;
+    /* height: 5000px; */
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(236, 227, 227);
+    padding-top: 10px;
+    margin-bottom: 25px;
+    /* background-color: red; */
+    /* border-top: none; */
+    border-radius: 25px;
+}
+
+.baiviet .newFeeds {
+    width: calc(100% - 40px);
+    height: auto;
+}
+
+.baiviet .solike {
+    margin-left: 25px;
+    display: flex;
+}
+
+.baiviet .solike p {
+    font-weight: 600;
+}
+
+.baiviet .solike i {
+    color: rgb(45, 132, 231);
+    font-weight: 500;
+}
+
+.baiviet .newFeeds .topNews {
+    display: flex;
+    width: 100%;
+    height: 55px;
+}
+
+.baiviet .newFeeds .topNews .avt {
+    width: 50px;
+    border: 1px solid red;
+    border-radius: 50px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.baiviet .newFeeds .topNews .avt img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.baiviet .newFeeds .topNews .inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.baiviet .newFeeds .topNews .inf .name {
+    display: flex;
+}
+
+.baiviet .newFeeds .topNews .inf .name>p {
+    font-weight: 700;
+    margin-right: 5px;
+    color: forestgreen;
+}
+
+.baiviet .newFeeds .topNews .inf .name>i {
+    color: blue;
+}
+
+.baiviet .newFeeds .topNews .inf .time p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(170, 168, 168);
+}
+
+.baiviet .newFeeds .contentNews {
+    height: auto;
+    border: 1px solid rgb(216, 211, 211);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.baiviet .newFeeds .contentNews .tieude {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.baiviet .newFeeds .contentNews .tieude h3>a {
+    text-decoration: none;
+}
+
+.baiviet .newFeeds .contentNews .tieude h3>a:hover {
+    text-decoration: underline;
+}
+
+.baiviet .newFeeds .contentNews .document {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.baiviet .newFeeds .contentNews .document .imageDoc {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.baiviet .newFeeds .contentNews .document .imageDoc1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.baiviet .newFeeds .contentNews .document .imageDoc img {
+    object-fit: cover;
+    width: calc(50% - 3px);
+    padding: 1px;
+}
+
+.baiviet .newFeeds .contentNews .document .imageDoc1 img {
+    object-fit: contain;
+    width: calc(100% - 3px);
+    padding: 1px;
+}
+
+.baiviet .newFeeds .contentNews .contentDoc {
+    display: flex;
+    width: 90%;
+}
+
+.baiviet .newFeeds .react {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.baiviet .newFeeds .react .like,
+.comment,
+.share {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.baiviet .newFeeds .react i {
+    font-size: 16px;
+    color: rgb(23, 173, 215);
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.baiviet .newFeeds .react .like:hover {
+    background-color: rgb(199, 203, 203);
+    color: brown;
+    text-decoration: underline;
+}
+
+.baiviet .newFeeds .react .comment:hover {
+    background-color: rgb(199, 203, 203);
+    color: brown;
+    text-decoration: underline;
+}
+
+.baiviet .newFeeds .react .share:hover {
+    background-color: rgb(199, 203, 203);
+    color: brown;
+    text-decoration: underline;
+}
+
+.baiviet .newFeeds .cmt {
+    width: 100%;
+    border-top: 1px solid rgb(232, 230, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baiviet .newFeeds .cmt .avatarCmt {
+    width: 50px;
+    height: 55px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.baiviet .newFeeds .cmt .avatarCmt img {
+    object-fit: cover;
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.baiviet .newFeeds .cmt .inpcmt {
+    width: calc(100% - 100px);
+    position: relative;
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+}
+
+.baiviet .newFeeds .cmt .inpcmt input {
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.baiviet .newFeeds .cmt .inpcmt .kieucmt {
+    position: absolute;
+    padding: 10px;
+    left: 485px;
+}
+
+.baiviet .newFeeds .cmt .inpcmt .kieucmt i {
+    margin-right: 10px;
+    opacity: 0.5;
+}
+
+section .content .right {
+    border: 1px solid rgb(248, 247, 247);
+    padding-top: 15px;
+    height: 650px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+section .content .right .topchat .headChat {
+    display: flex;
+}
+
+section .content .right .topchat .headChat>p {
+    font-weight: 650;
+    margin-right: 10px;
+}
+
+section .content .right .topchat {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+section .content .right .chat {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+section .content .right .chat .listChat {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border-top: 1px solid rgba(226, 228, 226, 0.358);
+    padding: 5px 0 5px 5px;
+}
+
+section .content .right .chat .listChat:hover {
+    background-color: rgb(218, 216, 215);
+}
+
+section .content .right .chat .listChat p {
+    font-size: 12px;
+}
+
+section .content .right .chat .listChat i {
+    font-size: 12px;
+    color: green;
+    margin-left: 10px;
+}
+
+section .content .right .chat .listChat .nameChat .ten {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .content .right .chat .listChat .avatarChat {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+section .content .right .chat .listChat .avatarChat .imgavt {
+    /* border-radius: 50px; */
+    width: 100%;
+    height: 100%;
+}
+
+section .content .right .chat .listChat .avatarChat .imgavt img {
+    object-fit: cover;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.left::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+.left::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(190, 247, 203, 0.3);
+    background-color: rgb(12, 121, 56);
+}
+
+.chat::-webkit-scrollbar {
+    width: 2px;
+    background-color: #F5F5F5;
+}
+
+.chat::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(190, 247, 203, 0.3);
+    background-color: rgb(12, 121, 56);
+}

@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../icon/fontawesome-free-6.2.0-web/css/all.css">
+    <title>Trangchu</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="noidung">
+            <div class="logo">
+                <div>
+                    <a href="index.html"><img src="https://www.footlook.it/content/uploads/photos/2022/01/footlook_b0c76789ac896eb15b3aa04438a0bdde.png" alt="">
+                </div>
+                </a>
+            </div>
+            <div class="nav">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i><input type="text">
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="iconNav">
+                    <div class="friend">
+                        <i class="fa-solid fa-user-group"></i>
+
+                    </div>
+                    <div class="message">
+                        <i class="fa-solid fa-message"></i>
+                    </div>
+                    <div class="bell">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <div class="avatar">
+                        <div class="image">
+                            <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                        </div>
+                        <div class="name">
+                            <p>Hoan</p>
+                        </div>
+
+                    </div>
+                    <div class="iconDrop">
+                        <p><a href="login.html">Đăng xuất<i class="fa-solid fa-right-from-bracket"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="content">
+            <div class="left">
+                <div class="menu">
+                    <div class="menuTop">
+                        <div class="chucnang">
+                            <div class="icon">
+                                <i class="fa-solid fa-person-chalkboard"></i>
+                            </div>
+                            <div class="noidung">Trang cá nhân</div>
+                        </div>
+                        <div class="chucnang">
+                            <div class="icon">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <div class="noidung">Bạn bè</div>
+                        </div>
+                        <div class="chucnang">
+                            <div class="icon">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                            </div>
+                            <div class="noidung">Kỉ niệm</div>
+                        </div>
+                        <div class="chucnang">
+                            <div class="icon">
+                                <i class="fa-solid fa-tv"></i>
+                            </div>
+                            <div class="noidung">Watch</div>
+                        </div>
+                        <div class="chucnang">
+                            <div class="icon"><i class="fa-solid fa-people-group"></i></div>
+                            <div class="noidung">Nhóm</div>
+                        </div>
+                        <div class="chucnang">
+                            <div class="icon"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                            <div class="noidung">Gần đây nhất</div>
+                        </div>
+                        <div class="nutbam1">
+                            <button class="chucnang" onclick="showMenu()">
+                            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                            <p class="noidung">Xem thêm</p>
+                            </button>
+                        </div>
+                        <div class="DropDown">
+                            <div class="chucnang">
+                                <div class="icon">
+                                    <i class="fa-solid fa-gamepad"></i>
+                                </div>
+                                <div class="noidung">Game</div>
+                            </div>
+                            <div class="chucnang">
+                                <div class="icon">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+                                <div class="noidung">Facebook</div>
+                            </div>
+                            <div class="chucnang">
+                                <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                                <div class="noidung">Twitter</div>
+                            </div>
+                            <div class="chucnang">
+                                <div class="icon"><i class="fa-brands fa-tiktok"></i></div>
+                                <div class="noidung">Tiktok</div>
+                            </div>
+                            <div class="nutbam2">
+                                <button class="chucnang" onclick="hideMenu() ">
+                                    <i class="fa-sharp fa-solid fa-chevron-up"></i>
+                                <p class="noidung">Ẩn bớt</p>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+
+                    <div class="menuBottom">
+                        <div class="chucnang loitat">
+                            <div class="loitat">Lối tắt của bạn</div>
+                        </div>
+                        <div class="chucnang">
+                            <div class="icon">
+                                <img src="https://cdnmedia.webthethao.vn/uploads/files/17-6/Logo/mu.png" alt="">
+                            </div>
+                            <div class="noidung">Manchester United</div>
+                        </div>
+                        <div class="chucnang">
+                            <div class="icon">
+                                <img src="https://cdnmedia.webthethao.vn/uploads/files/17-6/Logo/man-city.jpg" alt="">
+                            </div>
+                            <div class="noidung">
+                                Manchester City
+                            </div>
+                        </div>
+                        <div class="chucnang">
+                            <div class="icon">
+                                <img src="https://e7.pngegg.com/pngimages/140/54/png-clipart-real-madrid-c-f-el-clasico-manchester-united-f-c-football-team-football-emblem-sport-thumbnail.png" alt="">
+                            </div>
+                            <div class="noidung">Real Madrid</div>
+                        </div>
+                        <div class="chucnang">
+                            <div class="icon">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq3SSysXhkeIzeuOe8BD1tCcwkUUhHz38EzudTEFcxcGPfj_57V9HIhCcBeAvxIMO-eHA&usqp=CAU" alt="">
+                            </div>
+                            <div class="noidung">
+                                Bayern Munich
+                            </div>
+                        </div>
+                        <div class="chucnang">
+                            <div class="icon">
+                                <img src="https://inkythuatso.com/uploads/thumbnails/800/2021/11/logo-psg-inkythuatso-2-01-06-10-14-45.jpg" alt="">
+                            </div>
+                            <div class="noidung">
+                                Paris Saint G ermain
+                            </div>
+                        </div>
+                        <div class="nutbam3">
+                            <button class="chucnang" onclick="showMenu2()">
+                            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                            <p class="noidung">Xem thêm</p>
+                            </button>
+                        </div>
+                        <div class="DropDown bottomMenu">
+                            <div class="chucnang">
+                                <div class="icon">
+                                    <img src="https://inkythuatso.com/uploads/thumbnails/800/2021/11/logo-chelsea-inkythuatso-2-01-05-09-21-51.jpg" alt="">
+                                </div>
+                                <div class="noidung">Chelsea</div>
+                            </div>
+                            <div class="chucnang">
+                                <div class="icon">
+                                    <img src="https://inkythuatso.com/uploads/thumbnails/800/2021/11/logo-arsenal-inkythuatso-01-06-15-33-31.jpg" alt="">
+                                </div>
+                                <div class="noidung">
+                                    Arsenal
+                                </div>
+                            </div>
+                            <div class="chucnang">
+                                <div class="icon">
+                                    <img src="https://inkythuatso.com/uploads/thumbnails/800/2021/11/logo-liverpool-inkythuatso-3-01-05-13-28-05.jpg" alt="">
+                                </div>
+                                <div class="noidung">Liverpool</div>
+                            </div>
+                            <div class="chucnang">
+                                <div class="icon">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHa9qeQD6Gig3NIjl5MBNBsWUqfNVFyIbYXk8Iz0OaFBtunAe6EnJr1X5eCjPA5FaBsUk&usqp=CAU" alt="">
+                                </div>
+                                <div class="noidung">
+                                    As Roma
+                                </div>
+                            </div>
+                            <div class="chucnang">
+                                <div class="icon">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Portuguese_Football_Federation.svg/1200px-Portuguese_Football_Federation.svg.png" alt="">
+                                </div>
+                                <div class="noidung">
+                                    Portugal
+                                </div>
+                            </div>
+                            <div class="nutbam4">
+                                <button class="chucnang" onclick="hideMenu2()">
+                                    <i class="fa-sharp fa-solid fa-chevron-up"></i>
+                                <p class="noidung">Ẩn bớt</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="dangbai">
+                    <div class="top">
+                        <div class="contentTop">
+                            <div class="ava">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+
+                            <div class="search">
+                                <input type="text" placeholder="Bạn đang nghĩ gì?">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="bottom">
+                        <div class="noidung">
+                            <div class="icon">
+                                <i class="fa-solid fa-video"></i>
+                                <p>Video trực tiếp</p>
+                            </div>
+                        </div>
+                        <div class="noidung">
+                            <div class="icon">
+                                <i class="fa-solid fa-photo-film"></i>
+                                <p>Ảnh/Video</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319502334_746419246844618_48163542642673982_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=3EuzjpoGBVEAX8c6nxC&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfC3kGAPSVUnBKtd3Qbg-yqqwyoteG4bYgVUtl2kJG134g&oe=639E0B91"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Cristiano Ronaldo</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>Một ngày tuyệt vời cho Bồ Đào Nha, với kết quả lịch sử trong cuộc thi lớn nhất trên cầu thủ bóng đá thế giới. Triển lãm cao cấp của đội ngũ đầy tài năng và tuổi trẻ. Chúc mừng đội tuyển quốc gia của chúng ta. Giấc mơ còn
+                                    sống! Đến cuối cùng! Cố lên, Bồ Đào Nha! 🇵🇹💪🏽</p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318577541_741755960644280_5386338711361372_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=wGOYkz4OLLwAX9OeZ_i&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCxxQvq9rtEeK320l3MmxS5lj5z9hBX6j_dZ-942Ctztg&oe=639DBA52"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318672898_741755957310947_24910982775995278_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=Tsie5ikAN-EAX9ErFX4&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfA-rYJOGU5V_8HgPimtlkHq1-v2s3NDuCGxyNvpFdH_gQ&oe=639DAF47"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p class="count">0</p>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                        </div>
+
+                        <div class="react">
+
+                            <div class="like" onclick="demLike()">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319334066_685422496283289_5917700316344860381_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=xvb17tSJpiMAX95UMOn&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCDBmMOkANCFajOwUo-ARbrvePElRyCBTwzmCsmvWdW7g&oe=639DE5B2"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p>Olivier Giroud La Page Officielle</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>Anh ấy đã chơi #Pháp với #Anh người đàn ông của trận đấu thực sự tốt, anh ấy!!</p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc1">
+                                    <img src="https://www.footlook.it/content/uploads/photos/2022/12/footlook_e876ad657a2200e41ff48be8858c214b.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p class="count2">0</p>
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like" onclick="demLike2()">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/273144602_10152602977424953_1955203260619408476_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Pg3Cph1RNRcAX_6p1C8&_nc_ht=scontent.fhan14-3.fna&oh=00_AfBfxaQyETEF_0qaLcEDQDhezCg0TLBu0R4k_SgURDKV9A&oe=639D81FB"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p>Real Madrid C.F.</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>Vì một tương lai bền vững hơn. 👇
+                                    <a href="https://www.bmw.es/.../cam.../banco-energia-real-madrid.htmlhttps://www.bmw.es/es/campanas/banco-energia-real-madrid.html?fbclid=IwAR0W3lNJ0c0-ocS4N4PRkfgH14Hgnl-s_tzQFki9MwqE16CfPCwrGSWjdBc"></a>
+                                </p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc1">
+                                    <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FRealMadrid%2Fvideos%2F710431593647116%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no"
+                                        frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319502334_746419246844618_48163542642673982_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=3EuzjpoGBVEAX8c6nxC&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfC3kGAPSVUnBKtd3Qbg-yqqwyoteG4bYgVUtl2kJG134g&oe=639E0B91"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Cristiano Ronaldo</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>Một ngày tuyệt vời cho Bồ Đào Nha, với kết quả lịch sử trong cuộc thi lớn nhất trên cầu thủ bóng đá thế giới. Triển lãm cao cấp của đội ngũ đầy tài năng và tuổi trẻ. Chúc mừng đội tuyển quốc gia của chúng ta. Giấc mơ còn
+                                    sống! Đến cuối cùng! Cố lên, Bồ Đào Nha! 🇵🇹💪🏽</p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318577541_741755960644280_5386338711361372_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=wGOYkz4OLLwAX9OeZ_i&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCxxQvq9rtEeK320l3MmxS5lj5z9hBX6j_dZ-942Ctztg&oe=639DBA52"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318672898_741755957310947_24910982775995278_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=Tsie5ikAN-EAX9ErFX4&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfA-rYJOGU5V_8HgPimtlkHq1-v2s3NDuCGxyNvpFdH_gQ&oe=639DAF47"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2021/09/footlook_2e82881cef88a96fd5a2e465aa5f0d12.jpg" alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Mariam Kibabidze</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <h3><a href="https://www.calcionews24.com/infortunio-pogba-juventus-condizione-ritardo-ultime/"> Pogba chấn thương, chậm hồi phục: Mới nhất
+                                </a>
+                                </h3>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://www.calcionews24.com/wp-content/uploads/2022/07/Pogba_MG1_3282-590x354.jpg    " alt="">
+                                </div>
+                                <div class="contentDoc">
+                                    <div>
+                                        <p>Pogba Paul Pogba có thể bị chậm quá trình hồi phục, lộ trình của cầu thủ người Pháp bị chậm lại một chút Paul Pogba có thể bị chậm quá trình hồi phục, lộ trình của cầu thủ người Pháp bị chậm lại một chút. Theo thông
+                                            tin từ Corriere dello Sport, tiền vệ này vẫn tập luyện ở hồ bơi và phòng gym, tuy nhiên vẫn … <a href="https://www.calcionews24.com/infortunio-pogba-juventus-condizione-ritardo-ultime/">Đọc thêm</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2021/06/footlook_857ac094828d83a21070cca49c9735b2_cropped.jpg" alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Umberto Macchi</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <h3><a href="https://www.calcionews24.com/classifica-marcatori-mondiali-qatar-2022-chi-ha-segnato-piu-gol/"> Vua phá lưới World Cup 2022 của Qatar: Ai ghi nhiều bàn nhất?
+                                </a>
+                                </h3>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://www.calcionews24.com/wp-content/uploads/2022/11/Mondiali-Cannonieri.jpg" alt="">
+                                </div>
+                                <div class="contentDoc">
+                                    <div>
+                                        <p>Vua phá lưới Qatar World Cup 2022: toàn những chân sút của giải. Ai sẽ kế vị Harry Kane? Với vòng bảng, cuộc săn lùng danh hiệu vua phá lưới của Qatar World Cup 2022 đã bắt đầu. Tất cả các họng súng của 32 đội tuyển
+                                            quốc gia sẽ tranh tài trong cuộc đua giành vương trượng của vua ném bom của phiên bản thứ 22 của … <a href="https://www.calcionews24.com/infortunio-pogba-juventus-condizione-ritardo-ultime/">Đọc thêm</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319502334_746419246844618_48163542642673982_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=3EuzjpoGBVEAX8c6nxC&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfC3kGAPSVUnBKtd3Qbg-yqqwyoteG4bYgVUtl2kJG134g&oe=639E0B91"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Cristiano Ronaldo</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>Một ngày tuyệt vời cho Bồ Đào Nha, với kết quả lịch sử trong cuộc thi lớn nhất trên cầu thủ bóng đá thế giới. Triển lãm cao cấp của đội ngũ đầy tài năng và tuổi trẻ. Chúc mừng đội tuyển quốc gia của chúng ta. Giấc mơ còn
+                                    sống! Đến cuối cùng! Cố lên, Bồ Đào Nha! 🇵🇹💪🏽</p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318577541_741755960644280_5386338711361372_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=wGOYkz4OLLwAX9OeZ_i&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCxxQvq9rtEeK320l3MmxS5lj5z9hBX6j_dZ-942Ctztg&oe=639DBA52"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318672898_741755957310947_24910982775995278_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=Tsie5ikAN-EAX9ErFX4&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfA-rYJOGU5V_8HgPimtlkHq1-v2s3NDuCGxyNvpFdH_gQ&oe=639DAF47"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t1.6435-9/199385759_345470910277839_3988273979229903886_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=KNApToxcyusAX_hRef4&_nc_ht=scontent.fhan14-3.fna&oh=00_AfBsiiT7GPYYolpmgqm3Ejtytv2o2pmL6N_wo2HGA3Puzw&oe=63C0B58F"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Leo Messi</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>ĐẾN CUỐI CÙNG!!!!! 🇦🇷🇦🇷🇦🇷 Chúng tôi đã trở lại để lấy sức mạnh để chơi một trận đấu tuyệt vời khác. Xin chân thành cảm ơn tất cả những người đã tin tưởng nhóm này!!! 🙌🏻🙌🏻🙌🏻 Cố lên Argentina chết tiệt!!!!!! #Tấtcùngnhau
+                                    · · </p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319167959_546868813962876_5801211686437288808_n.jpg?stp=dst-jpg_s960x960&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=2SzWy4PTbJ8AX9QR1dS&_nc_ht=scontent.fhan14-3.fna&oh=00_AfDZPrW-RrkDne0D2UsaTmRS-rnEVo3qxUuPK9X9vU2OkQ&oe=639D6BD4"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319310750_2198893396948583_6970003148870606678_n.jpg?stp=dst-jpg_s960x960&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=sgoso09ThjgAX_wXPQv&_nc_ht=scontent.fhan14-3.fna&oh=00_AfBIl8lNYAcF4MnQcQfRvGsJCM-oeqCIAGkXKBibSFvGWQ&oe=639E41ED"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318848405_665126548730235_4668135528900459573_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=l69M5rixJJEAX9osMTm&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCsn7uvGgTqLBrHUkqZBbZTfZM9ESGcm7xtKtlHcK1CKQ&oe=639D7306"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319095108_606915441188913_7545465398026582460_n.jpg?stp=dst-jpg_s960x960&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=3Wn_LRwCpCYAX-vm1qk&_nc_ht=scontent.fhan14-3.fna&oh=00_AfDThff6r66OrF0_RgAS5wOoJgY0wQnGsQ2LuJuPAhK8Gg&oe=639E6C1C"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2021/06/footlook_857ac094828d83a21070cca49c9735b2_cropped.jpg" alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Umberto Macchi</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <h3><a href="https://www.calcionews24.com/classifica-marcatori-mondiali-qatar-2022-chi-ha-segnato-piu-gol/"> Vua phá lưới World Cup 2022 của Qatar: Ai ghi nhiều bàn nhất?
+                                </a>
+                                </h3>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://www.calcionews24.com/wp-content/uploads/2022/11/Mondiali-Cannonieri.jpg" alt="">
+                                </div>
+                                <div class="contentDoc">
+                                    <div>
+                                        <p>Vua phá lưới Qatar World Cup 2022: toàn những chân sút của giải. Ai sẽ kế vị Harry Kane? Với vòng bảng, cuộc săn lùng danh hiệu vua phá lưới của Qatar World Cup 2022 đã bắt đầu. Tất cả các họng súng của 32 đội tuyển
+                                            quốc gia sẽ tranh tài trong cuộc đua giành vương trượng của vua ném bom của phiên bản thứ 22 của … <a href="https://www.calcionews24.com/infortunio-pogba-juventus-condizione-ritardo-ultime/">Đọc thêm</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319334066_685422496283289_5917700316344860381_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=xvb17tSJpiMAX95UMOn&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCDBmMOkANCFajOwUo-ARbrvePElRyCBTwzmCsmvWdW7g&oe=639DE5B2"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p>Olivier Giroud La Page Officielle</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>Anh ấy đã chơi #Pháp với #Anh người đàn ông của trận đấu thực sự tốt, anh ấy!!</p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc1">
+                                    <img src="https://www.footlook.it/content/uploads/photos/2022/12/footlook_e876ad657a2200e41ff48be8858c214b.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319502334_746419246844618_48163542642673982_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=3EuzjpoGBVEAX8c6nxC&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfC3kGAPSVUnBKtd3Qbg-yqqwyoteG4bYgVUtl2kJG134g&oe=639E0B91"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Cristiano Ronaldo</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>Một ngày tuyệt vời cho Bồ Đào Nha, với kết quả lịch sử trong cuộc thi lớn nhất trên cầu thủ bóng đá thế giới. Triển lãm cao cấp của đội ngũ đầy tài năng và tuổi trẻ. Chúc mừng đội tuyển quốc gia của chúng ta. Giấc mơ còn
+                                    sống! Đến cuối cùng! Cố lên, Bồ Đào Nha! 🇵🇹💪🏽</p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318577541_741755960644280_5386338711361372_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=wGOYkz4OLLwAX9OeZ_i&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCxxQvq9rtEeK320l3MmxS5lj5z9hBX6j_dZ-942Ctztg&oe=639DBA52"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318672898_741755957310947_24910982775995278_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=Tsie5ikAN-EAX9ErFX4&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfA-rYJOGU5V_8HgPimtlkHq1-v2s3NDuCGxyNvpFdH_gQ&oe=639DAF47"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2021/09/footlook_2e82881cef88a96fd5a2e465aa5f0d12.jpg" alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Mariam Kibabidze</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <h3><a href="https://www.calcionews24.com/infortunio-pogba-juventus-condizione-ritardo-ultime/"> Pogba chấn thương, chậm hồi phục: Mới nhất
+                                </a>
+                                </h3>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://www.calcionews24.com/wp-content/uploads/2022/07/Pogba_MG1_3282-590x354.jpg    " alt="">
+                                </div>
+                                <div class="contentDoc">
+                                    <div>
+                                        <p>Pogba Paul Pogba có thể bị chậm quá trình hồi phục, lộ trình của cầu thủ người Pháp bị chậm lại một chút Paul Pogba có thể bị chậm quá trình hồi phục, lộ trình của cầu thủ người Pháp bị chậm lại một chút. Theo thông
+                                            tin từ Corriere dello Sport, tiền vệ này vẫn tập luyện ở hồ bơi và phòng gym, tuy nhiên vẫn … <a href="https://www.calcionews24.com/infortunio-pogba-juventus-condizione-ritardo-ultime/">Đọc thêm</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2021/06/footlook_857ac094828d83a21070cca49c9735b2_cropped.jpg" alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Umberto Macchi</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <h3><a href="https://www.calcionews24.com/classifica-marcatori-mondiali-qatar-2022-chi-ha-segnato-piu-gol/"> Vua phá lưới World Cup 2022 của Qatar: Ai ghi nhiều bàn nhất?
+                                </a>
+                                </h3>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://www.calcionews24.com/wp-content/uploads/2022/11/Mondiali-Cannonieri.jpg" alt="">
+                                </div>
+                                <div class="contentDoc">
+                                    <div>
+                                        <p>Vua phá lưới Qatar World Cup 2022: toàn những chân sút của giải. Ai sẽ kế vị Harry Kane? Với vòng bảng, cuộc săn lùng danh hiệu vua phá lưới của Qatar World Cup 2022 đã bắt đầu. Tất cả các họng súng của 32 đội tuyển
+                                            quốc gia sẽ tranh tài trong cuộc đua giành vương trượng của vua ném bom của phiên bản thứ 22 của … <a href="https://www.calcionews24.com/infortunio-pogba-juventus-condizione-ritardo-ultime/">Đọc thêm</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319502334_746419246844618_48163542642673982_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=3EuzjpoGBVEAX8c6nxC&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfC3kGAPSVUnBKtd3Qbg-yqqwyoteG4bYgVUtl2kJG134g&oe=639E0B91"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Cristiano Ronaldo</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>Một ngày tuyệt vời cho Bồ Đào Nha, với kết quả lịch sử trong cuộc thi lớn nhất trên cầu thủ bóng đá thế giới. Triển lãm cao cấp của đội ngũ đầy tài năng và tuổi trẻ. Chúc mừng đội tuyển quốc gia của chúng ta. Giấc mơ còn
+                                    sống! Đến cuối cùng! Cố lên, Bồ Đào Nha! 🇵🇹💪🏽</p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318577541_741755960644280_5386338711361372_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=wGOYkz4OLLwAX9OeZ_i&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCxxQvq9rtEeK320l3MmxS5lj5z9hBX6j_dZ-942Ctztg&oe=639DBA52"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318672898_741755957310947_24910982775995278_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=Tsie5ikAN-EAX9ErFX4&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfA-rYJOGU5V_8HgPimtlkHq1-v2s3NDuCGxyNvpFdH_gQ&oe=639DAF47"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t1.6435-9/199385759_345470910277839_3988273979229903886_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=KNApToxcyusAX_hRef4&_nc_ht=scontent.fhan14-3.fna&oh=00_AfBsiiT7GPYYolpmgqm3Ejtytv2o2pmL6N_wo2HGA3Puzw&oe=63C0B58F"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Leo Messi</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>ĐẾN CUỐI CÙNG!!!!! 🇦🇷🇦🇷🇦🇷 Chúng tôi đã trở lại để lấy sức mạnh để chơi một trận đấu tuyệt vời khác. Xin chân thành cảm ơn tất cả những người đã tin tưởng nhóm này!!! 🙌🏻🙌🏻🙌🏻 Cố lên Argentina chết tiệt!!!!!! #Tấtcùngnhau
+                                    · · </p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319167959_546868813962876_5801211686437288808_n.jpg?stp=dst-jpg_s960x960&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=2SzWy4PTbJ8AX9QR1dS&_nc_ht=scontent.fhan14-3.fna&oh=00_AfDZPrW-RrkDne0D2UsaTmRS-rnEVo3qxUuPK9X9vU2OkQ&oe=639D6BD4"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319310750_2198893396948583_6970003148870606678_n.jpg?stp=dst-jpg_s960x960&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=sgoso09ThjgAX_wXPQv&_nc_ht=scontent.fhan14-3.fna&oh=00_AfBIl8lNYAcF4MnQcQfRvGsJCM-oeqCIAGkXKBibSFvGWQ&oe=639E41ED"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/318848405_665126548730235_4668135528900459573_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=l69M5rixJJEAX9osMTm&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCsn7uvGgTqLBrHUkqZBbZTfZM9ESGcm7xtKtlHcK1CKQ&oe=639D7306"
+                                        alt="">
+                                    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319095108_606915441188913_7545465398026582460_n.jpg?stp=dst-jpg_s960x960&_nc_cat=1&ccb=1-7&_nc_sid=730e14&_nc_ohc=3Wn_LRwCpCYAX-vm1qk&_nc_ht=scontent.fhan14-3.fna&oh=00_AfDThff6r66OrF0_RgAS5wOoJgY0wQnGsQ2LuJuPAhK8Gg&oe=639E6C1C"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2021/06/footlook_857ac094828d83a21070cca49c9735b2_cropped.jpg" alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p> Umberto Macchi</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <h3><a href="https://www.calcionews24.com/classifica-marcatori-mondiali-qatar-2022-chi-ha-segnato-piu-gol/"> Vua phá lưới World Cup 2022 của Qatar: Ai ghi nhiều bàn nhất?
+                                </a>
+                                </h3>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc">
+                                    <img src="https://www.calcionews24.com/wp-content/uploads/2022/11/Mondiali-Cannonieri.jpg" alt="">
+                                </div>
+                                <div class="contentDoc">
+                                    <div>
+                                        <p>Vua phá lưới Qatar World Cup 2022: toàn những chân sút của giải. Ai sẽ kế vị Harry Kane? Với vòng bảng, cuộc săn lùng danh hiệu vua phá lưới của Qatar World Cup 2022 đã bắt đầu. Tất cả các họng súng của 32 đội tuyển
+                                            quốc gia sẽ tranh tài trong cuộc đua giành vương trượng của vua ném bom của phiên bản thứ 22 của … <a href="https://www.calcionews24.com/infortunio-pogba-juventus-condizione-ritardo-ultime/">Đọc thêm</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baiviet">
+                    <div class="newFeeds">
+                        <div class="topNews">
+                            <div class="avt">
+                                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/319334066_685422496283289_5917700316344860381_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=xvb17tSJpiMAX95UMOn&tn=hST3H23Ifb5UDC8f&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCDBmMOkANCFajOwUo-ARbrvePElRyCBTwzmCsmvWdW7g&oe=639DE5B2"
+                                    alt="">
+                            </div>
+                            <div class="inf">
+                                <div class="name">
+                                    <p>Olivier Giroud La Page Officielle</p><i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="time">
+                                    <p>17 giờ trước. <i class="fa-solid fa-clock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentNews">
+                            <div class="tieude">
+                                <p>Anh ấy đã chơi #Pháp với #Anh người đàn ông của trận đấu thực sự tốt, anh ấy!!</p>
+                            </div>
+                            <div class="document">
+                                <div class="imageDoc1">
+                                    <img src="https://www.footlook.it/content/uploads/photos/2022/12/footlook_e876ad657a2200e41ff48be8858c214b.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="solike">
+                                <p> <i class="fa-solid fa-thumbs-up"></i> 0</p>
+                            </div>
+                        </div>
+                        <div class="react">
+
+                            <div class="like">
+                                <p><i class="fa-solid fa-thumbs-up"></i>Thích</p>
+                            </div>
+                            <div class="comment">
+                                <p><i class="fa-solid fa-comment"></i>Bình luận</p>
+                            </div>
+                            <div class="share">
+                                <p><i class="fa-solid fa-share-from-square"></i></i>Chia sẻ</p>
+                            </div>
+                        </div>
+                        <div class="cmt">
+                            <div class="avatarCmt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                            <div class="inpcmt">
+                                <input type="text" placeholder="Viết bình luận">
+                                <div class="kieucmt">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i class="fa-solid fa-icons"></i>
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right">
+                <div class="topchat">
+                    <div class="headChat">
+                        <p>Messenger</p>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listChat">
+                        <div class="avatarChat">
+                            <div class="imgavt">
+                                <img src="https://www.footlook.it/content/uploads/photos/2020/04/footlook_c63d8dc157913a2a1d7604ce8d7dd464.png" alt="">
+                            </div>
+                        </div>
+                        <div class="nameChat">
+                            <div class="ten">
+                                <p>Umberto Macchi</p>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="thoigian">
+                                <p>Đang hoạt động</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mess">
+        dandjsand
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
